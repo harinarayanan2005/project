@@ -1,0 +1,49 @@
+.login-container {
+    max-width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid;
+    border-image: linear-gradient(to right, #ff0000, #0000ff) 1;
+  }
+  
+
+body{
+  background-image:url("C:\Users\HARINARAYANAN.N\OneDrive\Desktop\React Project\PROJECT\assgn\src\components\gww.jpg");
+  background-size: cover;
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+label {
+  margin-bottom: 8px;
+}
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+button {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+link{
+  text-decoration: T;
+  color: #0056b3;
+}
+p{
+  text-decoration: none;
+  color: #0056b3;
+}

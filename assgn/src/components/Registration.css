@@ -1,0 +1,71 @@
+/* src/components/Authentication.css */
+.authentication-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("C:\Users\HARINARAYANAN.N\OneDrive\Desktop\React Project\PROJECT\assgn\public\bgd.jpg");
+    background-color: #0f6aa27d;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form contents horizontally */
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+    width: 100%; /* Ensure labels take full width */
+  }
+  
+  input {
+    width: 100%; /* Make input fields take full width */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100%; /* Make the button take full width */
+    padding: 14px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    cursor: pointer;
+    color: #007bff;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  p:hover {
+    text-decoration: underline;
+  }
+  
